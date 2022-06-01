@@ -1,0 +1,4 @@
+/* this to get nac sticky property working (making nav looking like the parent element to the browser) */
+header {
+    display: contents;
+}
