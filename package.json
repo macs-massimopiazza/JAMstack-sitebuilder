@@ -1,0 +1,24 @@
+{
+    "name": "jamstack-blog-template",
+    "version": "1.0.0",
+    "description": "A template to create a simple, fast and secure blogs. Made by [Massimo Piazza](https://www.massimopiazza.com), inspired by [Kevin Powell](https://www.kevinpowell.co).",
+    "main": "index.js",
+    "scripts": {
+        "serve": "eleventy --serve",
+        "build": "eleventy"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/macs-massimopiazza/JAMstack-blog-template.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/macs-massimopiazza/JAMstack-blog-template/issues"
+    },
+    "homepage": "https://github.com/macs-massimopiazza/JAMstack-blog-template#readme",
+    "devDependencies": {
+        "@11ty/eleventy": "^1.0.1"
+    }
+}
