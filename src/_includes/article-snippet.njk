@@ -1,0 +1,12 @@
+<div class="row mb-4">
+    <div class="col-6 py-2 d-flex flex-column justify-content-between align-items-start">
+        <div class="text-top">
+            <h5 class="card-title">{{ post.data.title }}</h5>
+            <p class="card-text">{{ post.data.description }}</p>
+        </div>
+        <a href="{{ post.url }}" class="btn btn-success">Read Article</a>
+    </div>
+    <div class="col-6">
+        <img class="img-fluid" src="{{ post.data.image }}" class="card-img-top" alt="{{ post.data.titleAlt }}">
+    </div>
+</div>
