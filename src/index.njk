@@ -3,11 +3,9 @@ title: Homepage
 layout: 'base.njk'
 ---
 
-<section id="home-jumbo" class="py-4">
-    {% include 'home-jumbo.njk' %}
-</section>
+    {% include 'jumbo1.njk' %}
 
-<section id="featured-articles" class="py-4">
+<section id="featured-articles" class="py-4 bg-light    ">
     <div class="container">
         <div class="row">
             {%- for post in collections.featured -%}

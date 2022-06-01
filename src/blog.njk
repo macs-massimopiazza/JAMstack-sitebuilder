@@ -3,7 +3,7 @@ title: Blog
 layout: 'base.njk'
 ---
 
-<section id="all-articles">
+<section id="all-articles" class="py-5">
     <div class="container">
     {%- for post in collections.post | reverse -%}
         {% include 'article-snippet.njk' %}
