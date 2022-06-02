@@ -29,4 +29,4 @@ collections:
     slug: "{{title}}"
     fields:
       - {label: "Title", name: "title", widget: "string"}
-      - {label: "Code", name: "code", widget: "code"}
+      - {label: "Code", name: "code", widget: "text"}
