@@ -1,6 +1,6 @@
 ---
 title: jumbo_prova
-code: >
+code: |
     <section id="jumbo1" class="py-4">
         <div class="py-3 text-center container">
             <div class="row py-4 py-lg-5">
