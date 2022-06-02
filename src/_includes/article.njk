@@ -3,13 +3,24 @@ layout: 'base.njk'
 ---
 
 <article class="main-article">
+    <div class="container-fluid p-0 mb-5">
+        <div class="row">
+            <div class="col-12 image-bg">
+                <img class="img-fluid" src="{{ image }}" alt="{{ imageAlt }}">
+            </div>
+        </div>
+    </div>
     <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <a href="/" class="btn btn-success article-back-btn">← back</a>
+            </div>
+        </div>
         <div class="row">
             <div class="col-12">
                 <h1>
                 {{ title }}
                 </h1>
-                <img class="img-fluid" src="{{ image }}" alt="{{ imageAlt }}">
                 
                 {{ content | safe }}
             </div>
