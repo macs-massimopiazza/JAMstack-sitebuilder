@@ -3,6 +3,9 @@ backend:
   branch: main
 media_folder: "public/assets/blog"
 public_folder: "/assets/blog"
+site_url: https://macs-basic-blog.netlify.app
+display_url: https://macs-basic-blog.netlify.app
+logo_url: "/assets/logo.svg"
 collections: 
   - name: "blog"
     label: "Blog"
