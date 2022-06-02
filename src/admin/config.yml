@@ -25,6 +25,7 @@ collections:
   - name: "components"
     label: "Components"
     folder: "src/_includes"
+    create: true
     slug: "{{slug}}"
     fields: 
       - {label: "Component Name", name: "title", widget: "string"}
