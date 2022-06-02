@@ -3,6 +3,12 @@ header {
     display: contents;
 }
 
+/* custom container for article snippets */
+.custom-container {
+    max-width: 1320px;
+    margin: 0 auto;
+}
+
 /* article page  */
 .article-back-btn {
     position: fixed;
@@ -21,7 +27,7 @@ header {
 }
 
 /* hover effects */
-.article-snippet {
+/* .article-snippet {
     transition: all 0.1s ease-in;
 }
 
@@ -29,4 +35,4 @@ header {
     --bs-bg-opacity: 1;
     background-color: rgba(var(--bs-light-rgb),var(--bs-bg-opacity))!important;
     cursor: pointer;
-}
+} */
