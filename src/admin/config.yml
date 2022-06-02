@@ -22,3 +22,10 @@ collections:
       - {label: "Featured Image", name: "image", widget: "image"}
       - {label: "Image caption", name: "imageAlt", widget: "string"}
       - {label: "Body", name: "body", widget: "markdown"}
+  - name: "components"
+    label: "Components"
+    folder: "src/_includes"
+    slug: "{{slug}}"
+    fields: 
+      - {label: "Component Name", name: "title", widget: "string"}
+      - {label: "Component Code", name: "code", widget: "code", default_language: "html"}
