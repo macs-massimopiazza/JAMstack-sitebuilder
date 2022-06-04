@@ -22,11 +22,15 @@ collections:
       - {label: "Featured Image", name: "image", widget: "image"}
       - {label: "Image caption", name: "imageAlt", widget: "string"}
       - {label: "Body", name: "body", widget: "markdown"}
-  # - name: "components"
-  #   label: "Component"
-  #   folder: "src/components"
-  #   create: true
-  #   slug: "{{title}}"
-  #   fields:
-  #     - {label: "Title", name: "title", widget: "string"}
-  #     - {label: "Code", name: "code", widget: "text"}
+  - name: "jumbo1"
+    label: "Jumbo 1"
+    folder: "src/components/jumbo1"
+    slug: "{{name}}"
+    fields:
+      - {label: "Name", name: "name", widget: "string"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Subtitle", name: "subtitle", widget: "string"}
+      - {label: "Testo Bottone Sinistra", name: "btnsx", widget: "string"}
+      - {label: "Link Bottone Sinistra", name: "btnsxLink", widget: "string"}
+      - {label: "Testo Bottone Destra", name: "btndx", widget: "string"}
+      - {label: "Link Bottone Destra", name: "btndxLink", widget: "string"}
