@@ -1,5 +1,12 @@
 ---
-title: jumbo_prova
+name: jumbo1
+title: This is my goodsoup blog
+subtitle: Yeah in this blog i write stuff. This is a description to make people understand what I will talk about in my articles. Yes very nais. Bye.
+btnsx: Recent Articles
+btnsxLink: "#featured-articles"
+btndx: All Articles
+btndxLink: "/blog"
+tags: "jumbo1"
 code: |
     <section id="jumbo1" class="py-4">
         <div class="py-3 text-center container">
