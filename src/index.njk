@@ -3,12 +3,7 @@ title: Homepage
 layout: 'base.njk'
 ---
 
-    {# prova per creare componenti da netlify e stamparli direttamente su codice
-    {{ collections.components[0].data.code | safe }}
-    {{ collections.components[1].data.code | safe }} #}
-
-
-    {% include 'jumbo1.njk' %}
+    {% include 'components/jumbo1.njk' %}
 
 <section id="featured-articles" class="py-4 bg-light">
     <div class="container">
