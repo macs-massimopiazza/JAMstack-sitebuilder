@@ -11,5 +11,3 @@ A template to create a simple, fast and secure blogs. Made by [Massimo Piazza](h
 todo
 ### Netlify CMS setup (on Netlify account) 
 todo
-
-This project is licensed under the terms of the MIT license.
