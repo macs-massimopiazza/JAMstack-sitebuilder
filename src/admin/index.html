@@ -33,7 +33,7 @@
                   h('h1', {"className": "fw-light"}, entry.getIn(['data', 'title'])),
                   h('p', {"className": "lead text-muted"}, entry.getIn(['data', 'subtitle'])),
                   h('p', {},
-                    h('a', {"href": entry.getIn(['data', 'btnsxLink']), "className": "btn btn-success my-2"}, entry.getIn(['data', 'btnsx'])),
+                    h('a', {"href": entry.getIn(['data', 'btnsxLink']), "className": "btn btn-success my-2 me-2"}, entry.getIn(['data', 'btnsx'])),
                     h('a', {"href": entry.getIn(['data', 'btndxLink']), "className": "btn btn-outline-success my-2"}, entry.getIn(['data', 'btndx'])),
                   )
                 ),
