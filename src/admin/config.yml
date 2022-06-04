@@ -27,6 +27,7 @@ collections:
     folder: "src/components/jumbo1"
     slug: "{{name}}"
     fields:
+      - {label: "Visibile", name: "visible", widget: "boolean", default: true}
       - {label: "Name", name: "name", widget: "string"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Subtitle", name: "subtitle", widget: "string"}

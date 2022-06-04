@@ -1,4 +1,5 @@
 ---
+visible: true
 name: jumbo1
 title: This is my goodsoup blog, i cahnged the title from cms
 subtitle: Yeah in this blog i write stuff. This is a description to make people
