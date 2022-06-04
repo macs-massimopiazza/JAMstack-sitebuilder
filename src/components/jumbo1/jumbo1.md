@@ -1,11 +1,10 @@
 ---
-visible: true
+visible: false
 name: jumbo1
 title: This is my goodsoup blog, i cahnged the title from cms
 subtitle: Yeah in this blog i write stuff. This is a description to make people
   understand what I will talk about in my articles. Yes very nais. Bye.
 btnsx: Recent Articles
-btnsxLink: "#featured-articles"
 btndx: All Articles
 btndxLink: /blog
 code: >
@@ -24,4 +23,5 @@ code: >
       </div>
   </section>
 tags: jumbo1
+btnsxLink: "#featured-articles"
 ---
