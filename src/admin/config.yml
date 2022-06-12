@@ -35,3 +35,10 @@ collections:
       - {label: "Link Bottone Sinistra", name: "btnsxLink", widget: "string"}
       - {label: "Testo Bottone Destra", name: "btndx", widget: "string"}
       - {label: "Link Bottone Destra", name: "btndxLink", widget: "string"}
+  - name: "custompage"
+    label: "Custom Page"
+    folder: "src/pages/custompage"
+    slug: "{{name}}"
+    fields:
+      - {label: "Name", name: "name", widget: "string"}
+      - {label: "Page Title", name: "title", widget: "string"}
