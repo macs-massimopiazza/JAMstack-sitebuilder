@@ -42,3 +42,11 @@ collections:
     fields:
       - {label: "Name", name: "name", widget: "string"}
       - {label: "Page Title", name: "title", widget: "string"}
+      - label: "Jumbo 1"
+        name: "jumbo1"
+        widget: "object"
+        collapsed: false
+        fields: 
+          - {label: "Street Address", name: "street", widget: "string"}
+          - {label: "City", name: "city", widget: "string"}
+          - {label: "Postal Code", name: "post-code", widget: "string"}
