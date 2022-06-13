@@ -38,10 +38,8 @@ collections:
   - name: "custompage"
     label: "Custom Page"
     folder: "src/pages"
-    slug: "{{name}}"
+    slug: "custompage"
     fields:
-      - {label: "Name", name: "name", widget: "string"}
-      - {label: "Page Title", name: "title", widget: "string"}
       - label: "Jumbo 1"
         name: "jumbo1"
         widget: "object"
