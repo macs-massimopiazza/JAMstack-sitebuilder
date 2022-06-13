@@ -1,6 +1,4 @@
 ---
-name: custompage
-title: This is a page title
 tags: custompage
 jumbo1:
   btnsx: Button1
