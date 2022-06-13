@@ -1,5 +1,5 @@
 ---
-name: click here to edit
+title: click here to edit
 tags: custompage
 jumbo1:
   btnsx: Button1
