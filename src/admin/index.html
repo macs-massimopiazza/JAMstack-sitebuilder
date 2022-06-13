@@ -50,11 +50,20 @@
         var entry = this.props.entry;
         // var image = entry.getIn(['data', 'image']);
         // var bg = this.props.getAsset(image);
+        // h('img', {src: bg.toString()}),
         return(
-          h('div', {"className": "container"},
-            h('div', {"className": "row"},
-              h('div', {"className": "col-12"},
-                h('h1', {}, entry.getIn(['data', 'title'])),
+          h('section', {"className": "container col-xxl-8 px-4 py-5"},
+            h('div', {"className": "row flex-lg-row-reverse align-items-center g-5 py-5"},
+              h('div', {"className": "col-12 col-sm-12 col-lg-6"},
+                h('img', {"src": entry.getIn(['data', 'image']), "alt": entry.getIn(['data', 'imageAlt']), "className": "d-block mx-lg-auto img-fluid rounded", "width": "700", "height": "500", "loading": "lazy"})
+              ),
+              h('div', {"className": "col-lg-6"},
+                h('h1', {"className": "display-5 fw-bold lh-1 mb-3"}, entry.getIn(['data', 'title'])),
+                h('p', {"className": "lead"}, entry.getIn(['data', 'subtitle'])),
+                h('div', {"className": "d-flex gap-2"},
+                  h('a', {"href": entry.getIn(['data', 'btnsxLink']), "className": "btn btn-success my-2 w-50"}, entry.getIn(['data', 'btnsx'])),
+                  h('a', {"href": entry.getIn(['data', 'btndxLink']), "className": "btn btn-success my-2 w-50"}, entry.getIn(['data', 'btndx']))
+                )
               )
             )
           )

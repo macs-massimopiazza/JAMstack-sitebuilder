@@ -3,21 +3,19 @@ title: Custom Page
 layout: 'base.njk'
 ---
 <div id="custom-page">
-    {% if collections.custompage[0].data.jumbo1.visible %}
-        <section class="container col-xxl-8 px-4 py-5">
-            <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
-                <div class="col-12 col-sm-12 col-lg-6">
-                    <img src="{{ collections.custompage[0].data.jumbo1.image }}" alt="{{ collections.custompage[0].data.jumbo1.imageAlt }}" class="d-block mx-lg-auto img-fluid rounded" width="700" height="500" loading="lazy">
-                </div>
-                <div class="col-lg-6">
-                    <h1 class="display-5 fw-bold lh-1 mb-3">{{ collections.custompage[0].data.jumbo1.title }}</h1>
-                    <p class="lead">{{ collections.custompage[0].data.jumbo1.subtitle }}</p>
-                    <div class="d-flex gap-2">
-                        <a href="{{ collections.custompage[0].data.jumbo1.btnsxLink }}" class="btn btn-success my-2 w-50">{{ collections.custompage[0].data.jumbo1.btnsx }}</a>
-                        <a href="{{ collections.custompage[0].data.jumbo1.btndxLink }}" class="btn btn-outline-success my-2 w-50">{{ collections.custompage[0].data.jumbo1.btndx }}</a>
-                    </div>
+    <section class="container col-xxl-8 px-4 py-5 {% if !collections.custompage[0].data.jumbo1.visible %} hide {% endif %}}">
+        <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+            <div class="col-12 col-sm-12 col-lg-6">
+                <img src="{{ collections.custompage[0].data.jumbo1.image }}" alt="{{ collections.custompage[0].data.jumbo1.imageAlt }}" class="d-block mx-lg-auto img-fluid rounded" width="700" height="500" loading="lazy">
+            </div>
+            <div class="col-lg-6">
+                <h1 class="display-5 fw-bold lh-1 mb-3">{{ collections.custompage[0].data.jumbo1.title }}</h1>
+                <p class="lead">{{ collections.custompage[0].data.jumbo1.subtitle }}</p>
+                <div class="d-flex gap-2">
+                    <a href="{{ collections.custompage[0].data.jumbo1.btnsxLink }}" class="btn btn-success my-2 w-50">{{ collections.custompage[0].data.jumbo1.btnsx }}</a>
+                    <a href="{{ collections.custompage[0].data.jumbo1.btndxLink }}" class="btn btn-outline-success my-2 w-50">{{ collections.custompage[0].data.jumbo1.btndx }}</a>
                 </div>
             </div>
-        </section>
-    {% endif %}
+        </div>
+    </section>
 </div>
