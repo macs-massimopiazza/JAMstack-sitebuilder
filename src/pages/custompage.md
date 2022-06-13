@@ -7,7 +7,7 @@ jumbo1:
   btndxLink: "#"
   imageAlt: un bel cavallo
   btndx: Button2
-  visible: true
+  visible: d-none
   subtitle: Ma che bellezza, ciao come va haahha. Ma che bellezza, ciao come va
     haahha. Ma che bellezza, ciao come va haahha.
   title: This is a page title

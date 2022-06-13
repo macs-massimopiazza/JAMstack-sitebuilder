@@ -45,7 +45,7 @@ collections:
         widget: "object"
         collapsed: false
         fields: 
-          - {label: "Visibile", name: "visible", widget: "boolean", default: true}
+          - {label: "Show this jumbo?", name: "visible", widget: "select", options: [{ label: "Show", value: "" }, { label: "Hide", value: "d-none" }]}
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Subtitle", name: "subtitle", widget: "string"}
           - {label: "Image", name: "image", widget: "image"}
