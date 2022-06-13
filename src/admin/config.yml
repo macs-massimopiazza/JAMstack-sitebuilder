@@ -51,7 +51,7 @@ collections:
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Subtitle", name: "subtitle", widget: "string"}
           - {label: "Image", name: "image", widget: "image"}
-          - {label: "Image Description", name: "imageAlt", widget: "image"}
+          - {label: "Image Description", name: "imageAlt", widget: "string"}
           - {label: "Testo Bottone Sinistra", name: "btnsx", widget: "string"}
           - {label: "Link Bottone Sinistra", name: "btnsxLink", widget: "string"}
           - {label: "Testo Bottone Destra", name: "btndx", widget: "string"}

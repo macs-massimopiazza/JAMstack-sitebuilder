@@ -31,6 +31,11 @@ main {
     object-fit: cover;
 }
 
+/* fixed custompage jumbo1 wrapper */
+.custompage-btns-jumbo1-wrapper > a {
+    max-width: 170px;
+}
+
 /* hover effects */
 /* .article-snippet {
     transition: all 0.1s ease-in;

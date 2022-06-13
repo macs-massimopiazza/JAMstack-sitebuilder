@@ -5,7 +5,7 @@ tags: custompage
 jumbo1:
   btnsx: Button1
   btndxLink: "#"
-  imageAlt: https://images.pexels.com/photos/1996338/pexels-photo-1996338.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260
+  imageAlt: un bel cavallo
   btndx: Button2
   visible: true
   subtitle: Ma che bellezza, ciao come va haahha. Ma che bellezza, ciao come va
