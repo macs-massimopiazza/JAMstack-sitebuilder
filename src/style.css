@@ -3,6 +3,11 @@ header {
     display: contents;
 }
 
+/* ensuring main content always fill up the entire viewport, even without enough content to fill it | we ensure footer stays on bottom*/
+main {
+    min-height: calc(100vh - 130px); /* 60px for header | 70px for footer */
+}
+
 /* custom container for article snippets */
 .custom-container {
     max-width: 1320px;
