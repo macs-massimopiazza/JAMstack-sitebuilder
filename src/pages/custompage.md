@@ -6,7 +6,7 @@ jumbo1:
   btndxLink: "#"
   imageAlt: un bel cavallo
   btndx: Another one
-  visible: d-none
+  visible: show
   subtitle: "I really like editing my jumbo, because I can. "
   title: I'm editing this jumbo
   image: https://images.pexels.com/photos/1996338/pexels-photo-1996338.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260
@@ -15,7 +15,7 @@ jumbo2:
   btnsx: A button
   btndxLink: "#"
   btndx: Another one
-  visible: show
+  visible: d-none
   subtitle: "I really like editing my jumbo, because I can. "
   title: I'm editing this jumbo
   btnsxLink: "#"
