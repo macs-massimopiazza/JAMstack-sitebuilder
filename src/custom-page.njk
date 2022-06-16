@@ -32,4 +32,21 @@ layout: 'base.njk'
             </div>
         </div>
     </section>
+    <section id="jumbo3" class="{{ collections.custompage[0].data.jumbo3.visible }}">
+        <div class="px-4 pt-5 my-5 text-center border-bottom">
+            <h1 class="fw-bold">{{ collections.custompage[0].data.jumbo3.title }}</h1>
+            <div class="col-lg-6 mx-auto">
+                <p class="lead mb-4">{{ collections.custompage[0].data.jumbo3.subtitle }}</p>
+                <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5">
+                    <a href="{{ collections.custompage[0].data.jumbo3.btnsxLink }}" class="btn btn-success my-2 w-30">{{ collections.custompage[0].data.jumbo3.btnsx }}</a>
+                    <a href="{{ collections.custompage[0].data.jumbo3.btndxLink }}" class="btn btn-outline-success my-2 w-30">{{ collections.custompage[0].data.jumbo3.btndx }}</a>
+                </div>
+            </div>
+            <div class="overflow-hidden" style="max-height: 30vh;">
+                <div class="container px-5">
+                    <img src="{{ collections.custompage[0].data.jumbo3.image }}" class="img-fluid border rounded-3 shadow-lg mb-4" alt="{{ collections.custompage[0].data.jumbo3.imageAlt }}" width="700" height="500" loading="lazy">
+                </div>
+            </div>
+        </div>
+    </section>
 </div>

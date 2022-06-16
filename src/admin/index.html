@@ -48,15 +48,17 @@
     var customPagePreview = createClass({
       render: function() {
         var entry = this.props.entry;
-        var image = entry.getIn(['data', 'jumbo1', 'image']);
-        var rightImage = this.props.getAsset(image);
+        var imageJ1 = entry.getIn(['data', 'jumbo1', 'image']);
+        var jumbo1Image = this.props.getAsset(imageJ1);
+        var imageJ3 = entry.getIn(['data', 'jumbo3', 'image']);
+        var jumbo3Image = this.props.getAsset(imageJ3);
         return(
           h('div', {"id": "custom-page"},
             //JUMBO1
             h('section', {"className": "container col-xxl-8 px-4 py-5 " + entry.getIn(['data', 'jumbo1', 'visible'])},
               h('div', {"className": "row flex-lg-row-reverse align-items-center g-5 py-5"},
                 h('div', {"className": "col-12 col-sm-12 col-lg-6"},
-                  h('img', {"src": rightImage.toString(), "alt": entry.getIn(['data', 'jumbo1', 'imageAlt']), "className": "d-block mx-lg-auto img-fluid rounded", "width": "700", "height": "500", "loading": "lazy"})
+                  h('img', {"src": jumbo1Image.toString(), "alt": entry.getIn(['data', 'jumbo1', 'imageAlt']), "className": "d-block mx-lg-auto img-fluid rounded", "width": "700", "height": "500", "loading": "lazy"})
                 ),
                 h('div', {"className": "col-lg-6"},
                   h('h1', {"className": "display-5 fw-bold lh-1 mb-3"}, entry.getIn(['data', 'jumbo1', 'title'])),
@@ -83,8 +85,27 @@
                   )
                 )
               )
-            )
+            ),
             //END-JUMBO2
+            //JUMBO3
+            h('section', {"id": "jumbo3", "className": entry.getIn(['data', 'jumbo3', 'visible'])},
+              h('div', {"className": "px-4 pt-5 my-5 text-center border-bottom"},
+              h('h1', {"className": "fw-bold"}, entry.getIn(['data', 'jumbo3', 'title'])),
+                h('div', {"className": "col-lg-6 mx-auto"},
+                  h('p', {"className": "lead mb-4"}, entry.getIn(['data', 'jumbo3', 'subtitle'])),
+                  h('div', {"className": "d-grid gap-2 d-sm-flex justify-content-sm-center mb-5"},
+                    h('a', {"href": entry.getIn(['data', 'jumbo3', 'btnsxLink']), "className": "btn btn-success my-2"}, entry.getIn(['data', 'jumbo3', 'btnsx'])),
+                    h('a', {"href": entry.getIn(['data', 'jumbo3', 'btndxLink']), "className": "btn btn-outline-success my-2"}, entry.getIn(['data', 'jumbo2', 'btndx']))
+                  ),
+                ),
+                h('div', {"className": "overflow-hidden", "style": "max-height: 30vh;"},
+                  h('div', {"className": "container px-5"},
+                    h('img', {"src": jumbo3Image.toString(), "alt": entry.getIn(['data', 'jumbo3', 'imageAlt']), "className": "d-block mx-lg-auto img-fluid rounded", "width": "700", "height": "500", "loading": "lazy"})
+                  )
+                )
+              )
+            )
+            //END-JUMBO3
           )
         )
       }
