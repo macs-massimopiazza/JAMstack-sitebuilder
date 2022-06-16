@@ -54,3 +54,15 @@ collections:
           - {label: "Link Bottone Sinistra", name: "btnsxLink", widget: "string"}
           - {label: "Testo Bottone Destra", name: "btndx", widget: "string"}
           - {label: "Link Bottone Destra", name: "btndxLink", widget: "string"}
+      - label: "Jumbo 2"
+        name: "jumbo2"
+        widget: "object"
+        collapsed: false
+        fields: 
+          - {label: "Show this jumbo?", name: "visible", widget: "select", options: [{ label: "Show", value: "show" }, { label: "Hide", value: "d-none" }]}
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Subtitle", name: "subtitle", widget: "string"}
+          - {label: "Testo Bottone Sinistra", name: "btnsx", widget: "string"}
+          - {label: "Link Bottone Sinistra", name: "btnsxLink", widget: "string"}
+          - {label: "Testo Bottone Destra", name: "btndx", widget: "string"}
+          - {label: "Link Bottone Destra", name: "btndxLink", widget: "string"}
