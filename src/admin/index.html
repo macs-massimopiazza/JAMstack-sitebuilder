@@ -52,6 +52,7 @@
         var jumbo1Image = this.props.getAsset(imageJ1);
         var imageJ3 = entry.getIn(['data', 'jumbo3', 'image']);
         var jumbo3Image = this.props.getAsset(imageJ3);
+        const jumbo3DivStyle = {'max-height': '30vh'};
         return(
           h('div', {"id": "custom-page"},
             //JUMBO1
@@ -98,9 +99,9 @@
                     h('a', {"href": entry.getIn(['data', 'jumbo3', 'btndxLink']), "className": "btn btn-outline-success my-2"}, entry.getIn(['data', 'jumbo2', 'btndx']))
                   ),
                 ),
-                h('div', {"className": "overflow-hidden", "style": "max-height: 30vh;"},
+                h('div', {"className": "overflow-hidden", "style": jumbo3DivStyle},
                   h('div', {"className": "container px-5"},
-                    h('img', {"src": jumbo3Image.toString(), "alt": entry.getIn(['data', 'jumbo3', 'imageAlt']), "className": "d-block mx-lg-auto img-fluid rounded", "width": "700", "height": "500", "loading": "lazy"})
+                    h('img', {"src": jumbo3Image.toString(), "alt": entry.getIn(['data', 'jumbo3', 'imageAlt']), "className": "img-fluid border rounded-3 shadow-lg mb-4", "width": "700", "height": "500", "loading": "lazy"})
                   )
                 )
               )
