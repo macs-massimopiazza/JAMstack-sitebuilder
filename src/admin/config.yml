@@ -43,7 +43,7 @@ collections:
       - label: "Jumbo 1"
         name: "jumbo1"
         widget: "object"
-        collapsed: false
+        collapsed: true
         fields: 
           - {label: "Show this jumbo?", name: "visible", widget: "select", options: [{ label: "Show", value: "show" }, { label: "Hide", value: "d-none" }]}
           - {label: "Title", name: "title", widget: "string"}
@@ -57,7 +57,7 @@ collections:
       - label: "Jumbo 2"
         name: "jumbo2"
         widget: "object"
-        collapsed: false
+        collapsed: true
         fields: 
           - {label: "Show this jumbo?", name: "visible", widget: "select", options: [{ label: "Show", value: "show" }, { label: "Hide", value: "d-none" }]}
           - {label: "Title", name: "title", widget: "string"}
@@ -69,7 +69,7 @@ collections:
       - label: "Jumbo 3"
         name: "jumbo3"
         widget: "object"
-        collapsed: false
+        collapsed: true
         fields: 
           - {label: "Show this jumbo?", name: "visible", widget: "select", options: [{ label: "Show", value: "show" }, { label: "Hide", value: "d-none" }]}
           - {label: "Title", name: "title", widget: "string"}
