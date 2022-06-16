@@ -52,6 +52,7 @@
         var rightImage = this.props.getAsset(image);
         return(
           h('div', {"id": "custom-page"},
+            //JUMBO1
             h('section', {"className": "container col-xxl-8 px-4 py-5 " + entry.getIn(['data', 'jumbo1', 'visible'])},
               h('div', {"className": "row flex-lg-row-reverse align-items-center g-5 py-5"},
                 h('div', {"className": "col-12 col-sm-12 col-lg-6"},
@@ -66,7 +67,24 @@
                   )
                 )
               )
+            ),
+            //END-JUMBO1
+            //JUMBO2
+            h('section', {"id": "jumbo2", "className": "py-4 " + entry.getIn(['data', 'jumbo2', 'visible'])},
+              h('div', {"className": "py-3 text-center container"},
+                h('div', {"className": "row py-4 py-lg-5"},
+                  h('div', {"className": "col-lg-6 col-md-8 mx-auto"},
+                    h('h1', {"className": "fw-bold"}, entry.getIn(['data', 'jumbo2', 'title'])),
+                    h('p', {"className": "lead text-muted"}, entry.getIn(['data', 'jumbo2', 'subtitle'])),
+                    h('p', {},
+                      h('a', {"href": entry.getIn(['data', 'jumbo2', 'btnsxLink']), "className": "btn btn-success my-2"}, entry.getIn(['data', 'jumbo2', 'btnsx'])),
+                      h('a', {"href": entry.getIn(['data', 'jumbo2', 'btndxLink']), "className": "btn btn-outline-success my-2"}, entry.getIn(['data', 'jumbo2', 'btndx']))
+                    )
+                  )
+                )
+              )
             )
+            //END-JUMBO2
           )
         )
       }
