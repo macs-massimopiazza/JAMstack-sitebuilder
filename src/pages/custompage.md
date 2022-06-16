@@ -15,7 +15,7 @@ jumbo2:
   btnsx: A button
   btndxLink: "#"
   btndx: Another one
-  visible: show
+  visible: d-none
   subtitle: "I really like editing my jumbo, because I can. "
   title: I'm editing this jumbo
   btnsxLink: "#"
