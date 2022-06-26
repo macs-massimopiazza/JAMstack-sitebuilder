@@ -1,4 +1,4 @@
-## JAMstack-website-maker
+## JAMstack-sitebuilder
 A platform to create easy to maintain and host, budget websites with just static files.
 
 ### Stack:
